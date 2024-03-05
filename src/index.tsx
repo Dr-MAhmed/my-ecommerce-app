@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Header from './components/Header';
+import Navbar from './components/Navbar';
+import ListItems from './components/ListItems';
+import Banner from './components/Banner';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -10,6 +14,10 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <App />
+    <Header/>
+    <Navbar/>
+    <ListItems/>
+    <Banner/>
   </React.StrictMode>
 );
 
